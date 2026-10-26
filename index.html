@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="uz">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#080d18">
+    <meta name="description" content="Xoshimov — Cybersecurity Enthusiast shaxsiy portfolio.">
+    <title>XOSHIMOV | Cybersecurity</title>
+    <link rel="stylesheet" href="main.css">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <canvas id="matrixCanvas" aria-hidden="true"></canvas>
+    <header class="header">
+        <nav class="nav container" aria-label="Asosiy navigatsiya">
+            <a class="logo" href="#home">XOSHIMOV<span>.</span></a>
+
+            <button class="menu-toggle" id="menuToggle" aria-label="Menyuni ochish" aria-expanded="false"
+                aria-controls="navLinks">☰</button>
+
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Bosh sahifa</a></li>
+                <li><a href="#about">Men haqimda</a></li>
+                <li><a href="#skills">Ko‘nikmalar</a></li>
+                <li><a href="#projects">Loyihalar</a></li>
+                <li><a href="#contact">Aloqa</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero section" id="home">
+            <div class="container hero-grid">
+                <div class="hero-content reveal">
+                    <div class="status">
+                        <span class="status-dot"></span>
+                        KIBERXAVFSIZLIKNI O‘RGANYAPMAN
+                    </div>
+
+                    <p class="eyebrow">SALOM, MEN</p>
+                    <h1>XOSHIMOV<span class="blue">.</span></h1>
+                    <h2>Cybersecurity <span class="gradient">Enthusiast</span></h2>
+
+                    <p class="hero-description">
+                        Raqamli dunyoni xavfsizroq qilishga intilaman.
+                        Kiberxavfsizlik, tarmoqlar va tizimlarni himoya
+                        qilish bo‘yicha bilimlarimni rivojlantiryapman.
+                    </p>
+
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">
+                            Loyihalarim <span>↗</span>
+                        </a>
+                        <a href="#about" class="btn btn-outline">
+                            Men haqimda
+                        </a>
+                    </div>
+
+                    <div class="hero-meta">
+                        <span><span class="blue">01.</span> O‘rganish</span>
+                        <span><span class="blue">02.</span> Himoya</span>
+                        <span><span class="blue">03.</span> Rivojlanish</span>
+                    </div>
+                </div>
+
+                <div class="terminal-card reveal" aria-label="Terminal dizayn namunasi">
+                    <div class="terminal-top">
+                        <div class="terminal-dots">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <span>security-terminal</span>
+                        <span>●</span>
+                    </div>
+                    <div class="terminal-body">
+                        <p><span class="terminal-blue">user@xoshimov</span>:~$ whoami</p>
+                        <p class="terminal-output">Cybersecurity Enthusiast</p>
+                        <p><span class="terminal-blue">user@xoshimov</span>:~$ skills</p>
+                        <p class="terminal-output">Network Security</p>
+                        <p class="terminal-output">Web Security</p>
+                        <p class="terminal-output">Python Learning</p>
+                        <p><span class="terminal-blue">user@xoshimov</span>:~$ status</p>
+                        <p class="terminal-green">Learning & Building<span class="cursor">_</span></p>
+                    </div>
+                    <div class="terminal-footer">
+                        <span>● SYSTEM ONLINE</span>
+                        <span>MODE: LEARNING</span>
+                    </div>
+                </div>
+            </div>
+            <a class="scroll-hint" href="#about">PASTGA TUSHING ↓</a>
+        </section>
+
+        <section class="section" id="about">
+            <div class="container">
+                <p class="eyebrow reveal">01 / MEN HAQIMDA</p>
+                <h2 class="section-title reveal">Xavfsizlik — <span class="gradient">ustuvorlik.</span></h2>
+
+                <div class="about-grid">
+                    <article class="panel reveal">
+                        <h3>Men kimman?</h3>
+                        <p>
+                            Men Xoshimovman. Kiberxavfsizlik sohasiga qiziqaman.
+                            Maqsadim — axborot tizimlari qanday ishlashini
+                            tushunish, xavflarni aniqlash va ulardan himoyalanishni
+                            o‘rganish.
+                        </p>
+                        <p>
+                            Hozir bilimlarimni amaliy mashqlar va shaxsiy
+                            loyihalar orqali rivojlantiryapman.
+                        </p>
+                    </article>
+
+                    <article class="panel focus-panel reveal">
+                        <h3>Asosiy yo‘nalishlar</h3>
+                        <div class="focus-item">
+                            <span class="focus-icon">⌘</span>
+                            <div><strong>Tarmoq xavfsizligi</strong>
+                                <p>Tarmoqlar va protokollar asoslari</p>
+                            </div>
+                        </div>
+                        <div class="focus-item">
+                            <span class="focus-icon">◇</span>
+                            <div><strong>Web xavfsizligi</strong>
+                                <p>Saytlar xavfsizligi asoslari</p>
+                            </div>
+                        </div>
+                        <div class="focus-item">
+                            <span class="focus-icon">$_</span>
+                            <div><strong>Dasturlash</strong>
+                                <p>Python va avtomatlashtirish</p>
+                            </div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="skills">
+            <div class="container">
+                <p class="eyebrow reveal">02 / KO‘NIKMALAR</p>
+                <h2 class="section-title reveal">O‘rganayotgan <span class="gradient">texnologiyalarim.</span></h2>
+                <p class="section-lead reveal">
+                    Bu bo‘limdagi bilim darajalarini haqiqiy tajribangga moslab o‘zgartir.
+                </p>
+
+                <div class="skills-grid">
+                    <article class="skill-card reveal">
+                        <div class="skill-heading"><span>HTML / CSS</span><span>Asoslar</span></div>
+                        <div class="skill-track"><span style="width:55%"></span></div>
+                        <p>Veb-sahifa tuzilishi va dizayni</p>
+                    </article>
+                    <article class="skill-card reveal">
+                        <div class="skill-heading"><span>JavaScript</span><span>O‘rganyapman</span></div>
+                        <div class="skill-track"><span style="width:30%"></span></div>
+                        <p>Interaktiv sahifalar va dasturlash</p>
+                    </article>
+                    <article class="skill-card reveal">
+                        <div class="skill-heading"><span>Python</span><span>O‘rganyapman</span></div>
+                        <div class="skill-track"><span style="width:35%"></span></div>
+                        <p>Dasturlash va sodda avtomatlashtirish</p>
+                    </article>
+                    <article class="skill-card reveal">
+                        <div class="skill-heading"><span>Network Security</span><span>Asoslar</span></div>
+                        <div class="skill-track"><span style="width:25%"></span></div>
+                        <p>Tarmoqlar va xavfsizlik tushunchalari</p>
+                    </article>
+                </div>
+                <p class="disclaimer reveal">
+                    Ko‘rsatkichlar namuna sifatida berilgan, ular sertifikat yoki
+                    tasdiqlangan malaka hisoblanmaydi.
+                </p>
+            </div>
+        </section>
+
+        <section class="section" id="projects">
+            <div class="container">
+                <p class="eyebrow reveal">03 / LOYIHALAR</p>
+                <h2 class="section-title reveal">Amaliy <span class="gradient">ishlarim.</span></h2>
+                <p class="section-lead reveal">
+                    Hozircha o‘quv loyihalari. Keyinchalik o‘z ishlaring bilan almashtir.
+                </p>
+
+                <div class="projects-grid">
+                    <article class="project-card reveal">
+                        <div class="project-number">PROJECT_01</div>
+                        <div class="project-icon">⌘</div>
+                        <h3>Security Notes</h3>
+                        <p>Kiberxavfsizlik bo‘yicha qaydlar, atamalar va o‘rganilgan tushunchalar to‘plami.</p>
+                        <span class="project-tag">LEARNING</span><span class="project-tag">LEARNING</span>
+                        <a class="project-link" href="https://github.com/xoshimovm874" target="_blank">
+                            GitHub’da ko‘rish ↗
+                        </a>
+
+
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-number">PROJECT_02</div>
+                        <div class="project-icon">$_</div>
+                        <h3>Python Tools</h3>
+                        <p>Python yordamida yaratiladigan sodda, xavfsiz o‘quv dasturlari.</p>
+                        <span class="project-tag">PYTHON</span>
+                    </article>
+
+                    <article class="project-card reveal">
+                        <div class="project-number">PROJECT_03</div>
+                        <div class="project-icon">◇</div>
+                        <h3>Web Security Lab</h3>
+                        <p>Faqat o‘zingga tegishli yoki ruxsat berilgan muhitda xavfsizlik asoslarini o‘rganish.</p>
+                        <span class="project-tag">WEB SECURITY</span>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <section class="section section-alt" id="contact">
+            <div class="container">
+                <div class="contact-box reveal">
+                    <p class="eyebrow">04 / ALOQA</p>
+                    <h2 class="section-title">Bog‘lanamizmi<span class="blue">?</span></h2>
+                    <p class="section-lead">
+                        Savol, taklif yoki hamkorlik g‘oyang bormi?
+                        Quyidagi shakl orqali xabar matnini tayyorlashing mumkin.
+                    </p>
+
+                    <form id="contactForm">
+                        <label for="name">Isming</label>
+                        <input id="name" name="name" type="text" placeholder="Ismingni yoz" required maxlength="80">
+
+                        <label for="email">Email manziling</label>
+                        <input id="email" name="email" type="email" placeholder="you@example.com" required
+                            maxlength="150">
+
+                        <label for="message">Xabaring</label>
+                        <textarea id="message" name="message" placeholder="Xabaringni yoz..." required
+                            maxlength="2000"></textarea>
+
+                        <button class="btn btn-primary" type="submit">
+                            Xabar matnini tayyorlash ↗
+                        </button>
+                        <p id="formStatus" class="form-status" aria-live="polite"></p>
+                    </form>
+                    <p class="form-note">
+                        Bu demo shakl: xabar serverga yuborilmaydi. U matnni
+                        tayyorlaydi, keyin uni nusxalashing mumkin.
+                    </p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container footer-inner">
+            <a class="logo" href="#home">XOSHIMOV<span>.</span></a>
+            <p>© <span id="year"></span> XOSHIMOV. Barcha huquqlar himoyalangan.</p>
+            <a href="#home" class="back-top">YUQORIGA ↑</a>
+        </div>
+    </footer>
+</body>
+
+</html>
